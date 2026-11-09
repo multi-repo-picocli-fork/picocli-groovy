@@ -24,7 +24,7 @@ configurations {
     ivy
 }
 dependencies {
-    api            rootProject
+    api            "info.picocli:picocli:$projectVersion"
     compileOnly    supportDependencies.groovy
     ivy            supportDependencies.ivy // for Gradle
 }
